@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "name": "Cake Item 1",
+    "price": 1020,
+    "img": "https://www.freepnglogos.com/uploads/cake-png/cake-png-transparent-cake-images-pluspng-21.png"
+  },
+  {
+    "id": "2",
+    "name": "Cake Item 2",
+    "price": 1020,
+    "img": "https://www.freepnglogos.com/uploads/cake-png/cake-icon-gifts-iconset-icondrawer-39.png"
+  },
+  {
+    "id": "3",
+    "name": "Cake Item 3",
+    "price": 1020,
+    "img": "https://www.freepnglogos.com/uploads/cake-png/cake-png-transparent-cake-images-pluspng-3.png"
+  },
+  {
+    "id": "4",
+    "name": "Cake Item 4",
+    "price": 1020,
+    "img": "https://www.freepnglogos.com/uploads/cake-png/cake-png-manteca-jumpers-40.png"
+  },
+  {
+    "id": "5",
+    "name": "Cake Item 5",
+    "price": 1020,
+    "img": "https://www.freepnglogos.com/uploads/cake-png/cake-png-manteca-jumpers-10.png"
+  },
+  {
+    "id": "6",
+    "name": "Cake Item 6",
+    "price": 1020,
+    "img": "https://www.freepnglogos.com/uploads/cake-png/cake-icon-gifts-iconset-icondrawer-39.png"
+  },
+  {
+    "id": "7",
+    "name": "Cake Item 7",
+    "price": 1020,
+    "img": "https://www.freepnglogos.com/uploads/cake-png/first-birthday-cake-for-girl-get-off-36.png"
+  },
+  {
+    "id": "8",
+    "name": "Cake Item 8",
+    "price": 1020,
+    "img": "https://www.freepnglogos.com/uploads/cake-png/birthday-cake-png-image-pngpix-18.png"
+  },
+  {
+    "id": "9",
+    "name": "Cake Item 9",
+    "price": 1020,
+    "img": "https://www.freepnglogos.com/uploads/cake-png/chocolate-cake-sweets-kayden-image-pixabay-28.png"
+  }
+    
+]
