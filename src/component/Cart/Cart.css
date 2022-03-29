@@ -1,0 +1,13 @@
+.singleCartItem {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.singleCartImg {
+    width: 50px;
+}
+.singleCartImg img {
+    max-width: 100%;
+}

@@ -8,6 +8,7 @@ import "./Shop.css";
 function Shop() {
     const [products, setProducts] = useState([]);
     const [cart, setcart] = useState([]);
+    const [rendom, setRendom] = useState([0]);
 
     useEffect(() => {
         fetch('Products.json')
@@ -15,10 +16,7 @@ function Shop() {
             .then(data => setProducts(data))
     }, []);
 
-
-
     const handleAddToCart = (product) => {
-        console.log(product);
         if (cart.length < 4) {
             const newCart = [...cart, product];
             setcart(newCart);
@@ -28,17 +26,15 @@ function Shop() {
         }
     }
 
-    const selectRandom = () => {
-        console.log("rendom");
-    }
-
-    // var randomItem = newCart[Math.floor(Math.random()*newCart.length)];
-
     const clearData = () => {
         const clearProduct = [];
         setcart(clearProduct);
-    }
+    }    
 
+    const selectRandom = () => {
+        const random = cart[Math.floor(Math.random() * cart.length)];
+        setRendom(random);
+    }
 
     return (
         <div>
@@ -52,10 +48,11 @@ function Shop() {
                 </div>
                 <div className="cart-container">
                     <div className="cart-container-inner">
-                        <h4>Order Summary</h4>
-                        <p>Selected Items: {cart.length}</p>
+                        <h4>My Orders..</h4>
                         <Cart cart={cart}></Cart>
-                        <button className='btn-cart btn-select-rendom' onClick={() => selectRandom(cart)}><p className='btn-text'>Select Rendom</p></button>
+
+                        <button className='btn-cart btn-select-rendom' onClick={() => selectRandom(rendom)}><p className='btn-text'>Select Rendom</p>
+                        </button>
                         <button className='btn-cart btn-clear' onClick={() => clearData()}>Clear<FontAwesomeIcon icon={faDeleteLeft}></FontAwesomeIcon></button>
                     </div>
                 </div>
