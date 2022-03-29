@@ -23,8 +23,7 @@ function Product(props) {
                         <p className='btn-text'>Add to Cart</p>
                         <FontAwesomeIcon icon={faShoppingCart} />
                     </button>              
-                </div>
-            
+                </div>            
             </div>
         )
     }
